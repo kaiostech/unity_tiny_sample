@@ -1,0 +1,182 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "buildprogram", "Library\DotsRuntimeBuild\buildprogram.gen.csproj", "{95D8CCD1-D228-2B83-6F71-E684533651FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Snake", "Library\DotsRuntimeBuild\Snake.csproj", "{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.Entities.BuildUtils", "Library\DotsRuntimeBuild\Unity.Entities.BuildUtilities.csproj", "{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TypeRegGen", "Library\DotsRuntimeBuild\TypeRegGen.csproj", "{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bindgem", "Library\DotsRuntimeBuild\BindGem.csproj", "{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mscorlib", "Library\DotsRuntimeBuild\Unity.TinyCorlib.csproj", "{95BE9475-7513-1D77-602F-DE1C691BFC25}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{1D1C93E8-7F82-D831-5960-082115244F13}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unity", "Unity", "{1B6D86D0-12CB-792C-3DA5-CF5BFEE3205F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		asmjs-debug|Default = asmjs-debug|Default
+		asmjs-develop|Default = asmjs-develop|Default
+		asmjs-release|Default = asmjs-release|Default
+		wasm-debug|Default = wasm-debug|Default
+		wasm-develop|Default = wasm-develop|Default
+		wasm-release|Default = wasm-release|Default
+		windows-dotnet-debug|Default = windows-dotnet-debug|Default
+		windows-dotnet-develop|Default = windows-dotnet-develop|Default
+		windows-dotnet-release|Default = windows-dotnet-release|Default
+		windows-il2cpp-debug|Default = windows-il2cpp-debug|Default
+		windows-il2cpp-develop|Default = windows-il2cpp-develop|Default
+		windows-il2cpp-release|Default = windows-il2cpp-release|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.asmjs-debug|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.asmjs-develop|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.asmjs-release|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.wasm-debug|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.wasm-develop|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.wasm-release|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.windows-dotnet-debug|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.windows-dotnet-develop|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.windows-dotnet-release|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.windows-il2cpp-debug|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.windows-il2cpp-develop|Default.ActiveCfg = Release|Any CPU
+		{95D8CCD1-D228-2B83-6F71-E684533651FD}.windows-il2cpp-release|Default.ActiveCfg = Release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.asmjs-debug|Default.ActiveCfg = asmjs-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.asmjs-debug|Default.Build.0 = asmjs-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.asmjs-develop|Default.ActiveCfg = asmjs-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.asmjs-develop|Default.Build.0 = asmjs-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.asmjs-release|Default.ActiveCfg = asmjs-release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.asmjs-release|Default.Build.0 = asmjs-release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.wasm-debug|Default.ActiveCfg = wasm-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.wasm-debug|Default.Build.0 = wasm-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.wasm-develop|Default.ActiveCfg = wasm-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.wasm-develop|Default.Build.0 = wasm-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.wasm-release|Default.ActiveCfg = wasm-release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.wasm-release|Default.Build.0 = wasm-release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-dotnet-debug|Default.ActiveCfg = windows-dotnet-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-dotnet-debug|Default.Build.0 = windows-dotnet-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-dotnet-develop|Default.ActiveCfg = windows-dotnet-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-dotnet-develop|Default.Build.0 = windows-dotnet-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-dotnet-release|Default.ActiveCfg = windows-dotnet-release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-dotnet-release|Default.Build.0 = windows-dotnet-release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-il2cpp-debug|Default.ActiveCfg = windows-il2cpp-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-il2cpp-debug|Default.Build.0 = windows-il2cpp-debug|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-il2cpp-develop|Default.ActiveCfg = windows-il2cpp-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-il2cpp-develop|Default.Build.0 = windows-il2cpp-develop|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-il2cpp-release|Default.ActiveCfg = windows-il2cpp-release|Any CPU
+		{1F7347E7-C57B-4E72-AAA4-EB2B62FF0F14}.windows-il2cpp-release|Default.Build.0 = windows-il2cpp-release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.asmjs-debug|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.asmjs-debug|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.asmjs-develop|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.asmjs-develop|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.asmjs-release|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.asmjs-release|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.wasm-debug|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.wasm-debug|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.wasm-develop|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.wasm-develop|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.wasm-release|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.wasm-release|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-dotnet-debug|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-dotnet-debug|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-dotnet-develop|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-dotnet-develop|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-dotnet-release|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-dotnet-release|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-il2cpp-debug|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-il2cpp-debug|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-il2cpp-develop|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-il2cpp-develop|Default.Build.0 = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-il2cpp-release|Default.ActiveCfg = Release|Any CPU
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5}.windows-il2cpp-release|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.asmjs-debug|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.asmjs-debug|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.asmjs-develop|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.asmjs-develop|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.asmjs-release|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.asmjs-release|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.wasm-debug|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.wasm-debug|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.wasm-develop|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.wasm-develop|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.wasm-release|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.wasm-release|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-dotnet-debug|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-dotnet-debug|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-dotnet-develop|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-dotnet-develop|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-dotnet-release|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-dotnet-release|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-il2cpp-debug|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-il2cpp-debug|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-il2cpp-develop|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-il2cpp-develop|Default.Build.0 = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-il2cpp-release|Default.ActiveCfg = Release|Any CPU
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB}.windows-il2cpp-release|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.asmjs-debug|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.asmjs-debug|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.asmjs-develop|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.asmjs-develop|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.asmjs-release|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.asmjs-release|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.wasm-debug|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.wasm-debug|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.wasm-develop|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.wasm-develop|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.wasm-release|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.wasm-release|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-dotnet-debug|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-dotnet-debug|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-dotnet-develop|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-dotnet-develop|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-dotnet-release|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-dotnet-release|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-il2cpp-debug|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-il2cpp-debug|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-il2cpp-develop|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-il2cpp-develop|Default.Build.0 = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-il2cpp-release|Default.ActiveCfg = Release|Any CPU
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8}.windows-il2cpp-release|Default.Build.0 = Release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.asmjs-debug|Default.ActiveCfg = asmjs-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.asmjs-debug|Default.Build.0 = asmjs-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.asmjs-develop|Default.ActiveCfg = asmjs-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.asmjs-develop|Default.Build.0 = asmjs-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.asmjs-release|Default.ActiveCfg = asmjs-release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.asmjs-release|Default.Build.0 = asmjs-release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.wasm-debug|Default.ActiveCfg = wasm-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.wasm-debug|Default.Build.0 = wasm-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.wasm-develop|Default.ActiveCfg = wasm-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.wasm-develop|Default.Build.0 = wasm-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.wasm-release|Default.ActiveCfg = wasm-release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.wasm-release|Default.Build.0 = wasm-release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-dotnet-debug|Default.ActiveCfg = windows-dotnet-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-dotnet-debug|Default.Build.0 = windows-dotnet-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-dotnet-develop|Default.ActiveCfg = windows-dotnet-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-dotnet-develop|Default.Build.0 = windows-dotnet-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-dotnet-release|Default.ActiveCfg = windows-dotnet-release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-dotnet-release|Default.Build.0 = windows-dotnet-release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-il2cpp-debug|Default.ActiveCfg = windows-il2cpp-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-il2cpp-debug|Default.Build.0 = windows-il2cpp-debug|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-il2cpp-develop|Default.ActiveCfg = windows-il2cpp-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-il2cpp-develop|Default.Build.0 = windows-il2cpp-develop|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-il2cpp-release|Default.ActiveCfg = windows-il2cpp-release|Any CPU
+		{95BE9475-7513-1D77-602F-DE1C691BFC25}.windows-il2cpp-release|Default.Build.0 = windows-il2cpp-release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{95D8CCD1-D228-2B83-6F71-E684533651FD} = {1D1C93E8-7F82-D831-5960-082115244F13}
+		{42529BFE-C7DC-1D63-1B6F-8F64D2B3E8E5} = {1D1C93E8-7F82-D831-5960-082115244F13}
+		{CDAF4BA9-0F68-B1DD-A38E-0A06EDFD78AB} = {1D1C93E8-7F82-D831-5960-082115244F13}
+		{7393908E-3929-C1B7-DBE0-F02C66F8F7A8} = {1D1C93E8-7F82-D831-5960-082115244F13}
+		{95BE9475-7513-1D77-602F-DE1C691BFC25} = {1B6D86D0-12CB-792C-3DA5-CF5BFEE3205F}
+		{1D1C93E8-7F82-D831-5960-082115244F13} = {1B6D86D0-12CB-792C-3DA5-CF5BFEE3205F}
+	EndGlobalSection
+EndGlobal

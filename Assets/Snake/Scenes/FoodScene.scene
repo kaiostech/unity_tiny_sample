@@ -1,0 +1,84 @@
+{
+    "FileType": "Scene",
+    "Guid": "eb9ecdb476b94c97a50bca172298b884",
+    "SerializedVersion": 1,
+    "AssetReferences": [
+        { "Guid": "931b4d02159426f4e9c5367711888ebe", "FileId": 21300000, "Type": 3}],
+    "Entities": [{
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "sprite": "d9d09acec9c6d4199fe0c4682aba7783",
+            "color": {
+                "r": 0.8784314,
+                "g": 0.8784314,
+                "b": 0.8784314,
+                "a": 1
+            },
+            "blending": 0
+        }, {
+            "$type": "snake.FoodTag, Snake",
+            "ShouldMove": true
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core"
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 2376005046497134280,
+            "b": 12464860281705270275
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 2
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {
+                    "w": 1
+                }
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "F"
+            }, {
+                "c": "o"
+            }, {
+                "c": "o"
+            }, {
+                "c": "d"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 8800763451701393078
+            }, {
+                "StableTypeHash": 4010882819701385904
+            }]
+        }]
+    }]
+}

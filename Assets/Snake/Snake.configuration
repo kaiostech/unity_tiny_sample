@@ -1,0 +1,68 @@
+{
+    "FileType": "Scene",
+    "Guid": "46b433b264c69cbd39f04ad2e5d12be8",
+    "SerializedVersion": 1,
+    "AssetReferences": [],
+    "Entities": [{
+        "Components": [{
+            "$type": "snake.GameConfig, Snake",
+            "TickRate": 0.2,
+            "SnakeTailSceneReference": {
+                "SceneGuid": "f90cbe2199c94461a10f20f920a5dcf1"
+            },
+            "FoodSceneReference": {
+                "SceneGuid": "eb9ecdb476b94c97a50bca172298b884"
+            }
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 1399859920139602260,
+            "b": 12804249415795943890
+        }, {
+            "$type": "Unity.Tiny.Core2D.DisplayInfo, Unity.Tiny.Core2D",
+            "width": 240,
+            "height": 294,
+            "autoSizeToFrame": true,
+            "orientation": 0,
+            "renderMode": 0
+        }, {
+            "$type": "Unity.Tiny.Scenes.Scenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "ba6b79f9251f42a0b54043f0beab712f"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "f90cbe2199c94461a10f20f920a5dcf1"
+                }
+            }, {
+                "SceneReference": {
+                    "SceneGuid": "eb9ecdb476b94c97a50bca172298b884"
+                }
+            }]
+        }, {
+            "$type": "Unity.Tiny.Scenes.StartupScenes, Unity.Tiny.Scenes",
+            "Elements": [{
+                "SceneReference": {
+                    "SceneGuid": "ba6b79f9251f42a0b54043f0beab712f"
+                }
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 11847387210545074124
+            }, {
+                "StableTypeHash": 16509304358867389775
+            }, {
+                "StableTypeHash": 5640349106266389823
+            }, {
+                "StableTypeHash": 14151482673430734210
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ConfigurationTag, Unity.Authoring.Core"
+        }]
+    }]
+}

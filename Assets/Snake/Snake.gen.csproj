@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{93F4BD93-D287-8B6E-2805-42341748DC6F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace></RootNamespace>
+    <AssemblyName>Snake</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**\*.cs" Exclude="bee?\**\*.*" />
+    <None Include="Snake.asmdef" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'windows-dotnet-debug|AnyCPU' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\Library\DotsRuntimeBuild\artifacts\Snake.dll\windows-dotnet-debug</OutputPath>
+    <DefineConstants>UNITY_2018_3_OR_NEWER;UNITY_DOTSPLAYER;UNITY_ZEROPLAYER;NET_TINY;NET_DOTS;UNITY_USE_TINYMATH;UNITY_BINDGEM;UNITY_AVOID_REFLECTION;UNITY_WINDOWS;UNITY_SINGLETHREADED_JOBS;DEBUG;ENABLE_UNITY_COLLECTIONS_CHECKS;UNITY_DOTSPLAYER_DOTNET</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <NoWarn></NoWarn>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <Prefer32Bit>true</Prefer32Bit>
+    <StartAction>Program</StartAction>
+    <StartProgram>E:\workspace\Snake\Library\DotsRuntimeBuild\build\Snake\Snake-windows-dotnet-debug\Snake.exe</StartProgram>
+    <StartArguments />
+    <StartWorkingDirectory>E:\workspace\Snake\Library\DotsRuntimeBuild\build\Snake\Snake-windows-dotnet-debug</StartWorkingDirectory>
+    <EnableUnmanagedDebugging>true</EnableUnmanagedDebugging>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <RuntimeMetadataVersion>v4.0.30319</RuntimeMetadataVersion>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <BEE_USE_EMPTY_BUILD>false</BEE_USE_EMPTY_BUILD>
+    <BEEBUILDCOMMAND>"E:\workspace\Snake\Library\PackageCache\com.unity.tiny@0.16.1-preview\DotsPlayer\bee~\bee.exe" --no-colors build/Snake/Snake-windows-dotnet-debug/Snake.dll</BEEBUILDCOMMAND>
+    <BEEBUILDWORKINGDIR>E:\workspace\Snake\Library\DotsRuntimeBuild</BEEBUILDWORKINGDIR>
+    <BEEOUTPUTDIRECTORY>artifacts\Snake.dll\windows-dotnet-debug</BEEOUTPUTDIRECTORY>
+    <IntermediateOutputPath>..\..\Library\DotsRuntimeBuild\artifacts\Bee.CSharpSupport\MSBuildIntermediateOutputPath\windows-dotnet-debug</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(Configuration)|$(Platform)' == 'windows-dotnet-debug|AnyCPU' ">
+    <Reference Include="7445769404504422580">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.ZeroJobs.dll\windows-dotnet-debug\ref\Unity.ZeroJobs.dll\7445769404504422580.dll</HintPath>
+    </Reference>
+    <Reference Include="4595989456203023416">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.LowLevel.dll\windows-dotnet-debug\ref\Unity.LowLevel.dll\4595989456203023416.dll</HintPath>
+    </Reference>
+    <Reference Include="15598043893180441698">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Collections.dll\windows-dotnet-debug\ref\Unity.Collections.dll\15598043893180441698.dll</HintPath>
+    </Reference>
+    <Reference Include="518049504186065786">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Entities.dll\windows-dotnet-debug\ref\Unity.Entities.dll\518049504186065786.dll</HintPath>
+    </Reference>
+    <Reference Include="4166109481781402930">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Mathematics.dll\windows-dotnet-debug\ref\Unity.Mathematics.dll\4166109481781402930.dll</HintPath>
+    </Reference>
+    <Reference Include="16664027219548305128">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Audio.dll\windows-dotnet-debug\ref\Unity.Tiny.Audio.dll\16664027219548305128.dll</HintPath>
+    </Reference>
+    <Reference Include="6206289286023969590">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.AudioNative.dll\windows-dotnet-debug\ref\Unity.Tiny.AudioNative.dll\6206289286023969590.dll</HintPath>
+    </Reference>
+    <Reference Include="1756738998960370978">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Core.dll\windows-dotnet-debug\ref\Unity.Tiny.Core.dll\1756738998960370978.dll</HintPath>
+    </Reference>
+    <Reference Include="3906647436648774274">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Core2D.dll\windows-dotnet-debug\ref\Unity.Tiny.Core2D.dll\3906647436648774274.dll</HintPath>
+    </Reference>
+    <Reference Include="8425902093332206380">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Core2DTypes.dll\windows-dotnet-debug\ref\Unity.Tiny.Core2DTypes.dll\8425902093332206380.dll</HintPath>
+    </Reference>
+    <Reference Include="10894429803476275890">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.EntryPoint.exe\windows-dotnet-debug\ref\Unity.Tiny.EntryPoint.exe\10894429803476275890.dll</HintPath>
+    </Reference>
+    <Reference Include="11357059501516916914">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.GLFW.dll\windows-dotnet-debug\ref\Unity.Tiny.GLFW.dll\11357059501516916914.dll</HintPath>
+    </Reference>
+    <Reference Include="1170980302212671026">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.HitBox2D.dll\windows-dotnet-debug\ref\Unity.Tiny.HitBox2D.dll\1170980302212671026.dll</HintPath>
+    </Reference>
+    <Reference Include="14134979160107367222">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Image2D.dll\windows-dotnet-debug\ref\Unity.Tiny.Image2D.dll\14134979160107367222.dll</HintPath>
+    </Reference>
+    <Reference Include="3567932944222568370">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Image2DIOSTB.dll\windows-dotnet-debug\ref\Unity.Tiny.Image2DIOSTB.dll\3567932944222568370.dll</HintPath>
+    </Reference>
+    <Reference Include="18192151600197581744">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Input.dll\windows-dotnet-debug\ref\Unity.Tiny.Input.dll\18192151600197581744.dll</HintPath>
+    </Reference>
+    <Reference Include="16729081561241550716">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.InputGLFW.dll\windows-dotnet-debug\ref\Unity.Tiny.InputGLFW.dll\16729081561241550716.dll</HintPath>
+    </Reference>
+    <Reference Include="15415093978655840722">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.IO.dll\windows-dotnet-debug\ref\Unity.Tiny.IO.dll\15415093978655840722.dll</HintPath>
+    </Reference>
+    <Reference Include="9073079477296844374">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Particles.dll\windows-dotnet-debug\ref\Unity.Tiny.Particles.dll\9073079477296844374.dll</HintPath>
+    </Reference>
+    <Reference Include="8006530153732197490">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.PointQuery.dll\windows-dotnet-debug\ref\Unity.Tiny.PointQuery.dll\8006530153732197490.dll</HintPath>
+    </Reference>
+    <Reference Include="542372448572752482">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Renderer.dll\windows-dotnet-debug\ref\Unity.Tiny.Renderer.dll\542372448572752482.dll</HintPath>
+    </Reference>
+    <Reference Include="8271189159179418226">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.RendererGL.dll\windows-dotnet-debug\ref\Unity.Tiny.RendererGL.dll\8271189159179418226.dll</HintPath>
+    </Reference>
+    <Reference Include="11762806976377612706">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.RendererGLNative.dll\windows-dotnet-debug\ref\Unity.Tiny.RendererGLNative.dll\11762806976377612706.dll</HintPath>
+    </Reference>
+    <Reference Include="3527590087499250786">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Scenes.dll\windows-dotnet-debug\ref\Unity.Tiny.Scenes.dll\3527590087499250786.dll</HintPath>
+    </Reference>
+    <Reference Include="15538266645149689634">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Sprite2D.dll\windows-dotnet-debug\ref\Unity.Tiny.Sprite2D.dll\15538266645149689634.dll</HintPath>
+    </Reference>
+    <Reference Include="9192012310310118722">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Text.dll\windows-dotnet-debug\ref\Unity.Tiny.Text.dll\9192012310310118722.dll</HintPath>
+    </Reference>
+    <Reference Include="1685285520897453874">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Tweens.dll\windows-dotnet-debug\ref\Unity.Tiny.Tweens.dll\1685285520897453874.dll</HintPath>
+    </Reference>
+    <Reference Include="2315580721367274642">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.UIControls.dll\windows-dotnet-debug\ref\Unity.Tiny.UIControls.dll\2315580721367274642.dll</HintPath>
+    </Reference>
+    <Reference Include="14476120963402389490">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.UILayout.dll\windows-dotnet-debug\ref\Unity.Tiny.UILayout.dll\14476120963402389490.dll</HintPath>
+    </Reference>
+    <Reference Include="10471159396544474514">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Video.dll\windows-dotnet-debug\ref\Unity.Tiny.Video.dll\10471159396544474514.dll</HintPath>
+    </Reference>
+    <Reference Include="6463052570322100608">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.VideoNative.dll\windows-dotnet-debug\ref\Unity.Tiny.VideoNative.dll\6463052570322100608.dll</HintPath>
+    </Reference>
+    <Reference Include="5162226428426487074">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Tiny.Watchers.dll\windows-dotnet-debug\ref\Unity.Tiny.Watchers.dll\5162226428426487074.dll</HintPath>
+    </Reference>
+    <Reference Include="1269796626330138404">
+      <HintPath>..\..\Library\DotsRuntimeBuild\artifacts\Unity.Authoring.Core.dll\windows-dotnet-debug\ref\Unity.Authoring.Core.dll\1269796626330138404.dll</HintPath>
+    </Reference>
+    <ProjectReference Include="..\..\Library\DotsRuntimeBuild\Unity.TinyCorlib.csproj">
+      <Project>{95BE9475-7513-1D77-602F-DE1C691BFC25}</Project>
+      <Name>mscorlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <Target Name="Build" Outputs="$(BEEOUTPUTDIRECTORY)" DependsOnTargets="">
+    <Exec Command="$(BEEBUILDCOMMAND)" WorkingDirectory="$(BEEBUILDWORKINGDIR)" Condition=" '$(BEE_USE_EMPTY_BUILD)' == 'false' " />
+  </Target>
+</Project>

@@ -1,0 +1,94 @@
+{
+    "FileType": "Scene",
+    "Guid": "f90cbe2199c94461a10f20f920a5dcf1",
+    "SerializedVersion": 1,
+    "AssetReferences": [
+        { "Guid": "931b4d02159426f4e9c5367711888ebe", "FileId": 21300000, "Type": 3}],
+    "Entities": [{
+        "Components": [{
+            "$type": "Unity.Tiny.Core2D.Parent, Unity.Tiny.Core2D"
+        }, {
+            "$type": "Unity.Tiny.Core2D.Sprite2DRenderer, Unity.Tiny.Sprite2D",
+            "sprite": "d9d09acec9c6d4199fe0c4682aba7783",
+            "color": {
+                "r": 1,
+                "g": 1,
+                "b": 1,
+                "a": 1
+            },
+            "blending": 0
+        }, {
+            "$type": "snake.SnakeTail, Snake"
+        }, {
+            "$type": "Unity.Authoring.Core.SiblingIndex, Unity.Authoring.Core"
+        }, {
+            "$type": "Unity.Entities.EntityGuid, Unity.Entities",
+            "a": 11260919046025920965,
+            "b": 13688542654332782428
+        }, {
+            "$type": "Unity.Tiny.Core2D.Translation, Unity.Tiny.Core2D",
+            "Value": {
+                "x": -15.55,
+                "y": 11.21
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.Rotation, Unity.Tiny.Core2D",
+            "Value": {
+                "value": {
+                    "w": 1
+                }
+            }
+        }, {
+            "$type": "Unity.Tiny.Core2D.NonUniformScale, Unity.Tiny.Core2D",
+            "Value": {
+                "x": 1,
+                "y": 1,
+                "z": 1
+            }
+        }, {
+            "$type": "Unity.Tiny.Core.EntityName, Unity.Tiny.Core",
+            "Elements": [{
+                "c": "S"
+            }, {
+                "c": "n"
+            }, {
+                "c": "a"
+            }, {
+                "c": "k"
+            }, {
+                "c": "e"
+            }, {
+                "c": "T"
+            }, {
+                "c": "a"
+            }, {
+                "c": "i"
+            }, {
+                "c": "l"
+            }]
+        }, {
+            "$type": "Unity.Authoring.Core.ComponentOrder, Unity.Authoring.Core",
+            "Elements": [{
+                "StableTypeHash": 7960064150805274675
+            }, {
+                "StableTypeHash": 793987765392955020
+            }, {
+                "StableTypeHash": 12662904853204722592
+            }, {
+                "StableTypeHash": 266869500686333426
+            }, {
+                "StableTypeHash": 9104342357061045742
+            }, {
+                "StableTypeHash": 17378348762221180850
+            }, {
+                "StableTypeHash": 874803706151837934
+            }, {
+                "StableTypeHash": 12932679046359085526
+            }, {
+                "StableTypeHash": 2645562697878410896
+            }, {
+                "StableTypeHash": 1148637716958756824
+            }]
+        }]
+    }]
+}
